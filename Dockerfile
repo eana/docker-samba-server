@@ -1,4 +1,4 @@
-FROM alpine:3.16.1
+FROM alpine:3.16.2
 
 RUN set -xe && \
     apk add --update --no-cache samba vim
